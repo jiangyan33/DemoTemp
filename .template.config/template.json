@@ -1,13 +1,13 @@
 {
   "author": "jiangyan33", // 作者必须
   "classifications": [ "webApiDemo" ], //必须，模板标签，字符串数组
-  "name": "webApiDemo", //必须，模板的名称
+  "name": "DemoTemp", //必须，模板的名称,这个东西不需要和项目名称一样，就是单纯的模板名称
   "identity": "jiangyan33_web_api_demo", //模板的唯一标识，
   "shortName": "jy_web_demo", //必须，模板的简称，
   "tags": { // 适用语言
     "language": "C#",
     "type": "project"
   },
-  "sourceName": "webApiDemo", // 可选，创建项目的时候如果不指定名称，就是这个名称
+  "sourceName": "DemoTemp", // 可选，这个值是模板项目的名称，在使用项目的如果没有指定名称就是该名称，如果指定了就是用户指定的名称
   "preferNameDirectory": true // 可选，创建目录
 }
